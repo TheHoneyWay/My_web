@@ -18,6 +18,15 @@
     border: 1px solid #191a1c;
     background-color: #191a1c;
     font: bold 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: color 1s ease-in, border 0.5s ease-in;
+}
+
+.BUTTONS_TEXT:hover {
+    color: #ceac6a;
+    border-radius: 8px;
+    border: 1px solid #ceac6a;
+    background-color: #191a1c;
+    font: bold 14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .BUTTONS {
