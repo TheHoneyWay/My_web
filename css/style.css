@@ -27,7 +27,6 @@ body {
 }
 .header {
     background-color: #272b2f;
-    height: 82px;
     z-index: 1;
     position: fixed;
     top: 10px;
@@ -38,8 +37,27 @@ body {
 }
 .buttons {
     display: flex;
+    gap: 5%;
+    margin-inline-start: 5%;
+    margin-block: 18px;
 }
 .buttons button {
+    border-color: #dde5ed;
+    border-style: solid;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #dde5ed;
     background-color: #272b2f;
-    border-radius: 10px;
+    border-radius: 15px;
+    width: 20%;
+    height: 50px;
+}
+.buttons button:hover {
+    border-color: #272b2f;
+    color: #272b2f;
+    background-color: #dde5ed;
+}
+.buttons button:last-child {
+    margin-right: 0;
 }
